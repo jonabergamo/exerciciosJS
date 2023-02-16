@@ -10,7 +10,7 @@ function calcular() {
       divisor++;
   
   if(n1 == divisor)
-      console.log("Número Primo!");
+  document.querySelector("#result").innerHTML = `${n1} é primo!`;
   else
-      console.log("Número NÃO primo!");
+  document.querySelector("#result").innerHTML = `${n1} não é primo!`;
 }
